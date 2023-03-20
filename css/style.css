@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    padding-top: 200px;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://i.ibb.co/PDmmLrk/image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#your{
+    text-align: center;
+    font-size: 64px;
+    line-height: 86px;
+    font-weight: 700;
+    color: #151718;
+    font-family: 'Cinzel', serif;
+    transition: 0.3s;
+}
+
+#expert{
+    text-align: center;
+    font-size: 64px;
+    line-height: 86px;
+    font-weight: 700;
+    color: #151718;
+    font-family: 'Cinzel', serif;
+    transition: 0.3s;
+}
+
+h1 > span{
+    text-align: center;
+    font-size: 64px;
+    line-height: 86px;
+    font-weight: 700;
+    color: #DB2777;
+    font-family: 'Cinzel', serif;
+    transition: 0.3s;
+}
+
+#your:hover, #expert:hover, span:hover{
+    font-size: 100px;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2C2E2F;
+    margin-bottom: 72px;
+}
+
+#readmore{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Cinzel', serif;
+    color: #151718;
+    padding: 16px 32px;
+    margin-right: 16px;
+}
+
+#readmore:hover, #travelnow{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    background-color: #DB2777;
+    padding: 16px 32px;
+    border-radius: 80px;
+    transition: 0.3s;
+}
+
+#travelnow:hover{
+    color: #DB2777;
+    background-color: #151718;
+}
